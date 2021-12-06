@@ -92,7 +92,7 @@ The `target.py` script will do the following:
 ![mnist](mnist_pyt/files/img/normal.png)
 
 + Threads = 4: **6421.47 FPS**
-     - Command to run: `python3 app_mt.py -m CNN_kv260.xmodel`
+     - Command to run: `python3 app_mt.py -m CNN_kv260.xmodel --threads 4`
      
 ![mnist](mnist_pyt/files/img/thread.png)
 
